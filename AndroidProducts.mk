@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aosp_selene.mk
+   $(LOCAL_DIR)/conquer_selene.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_selene-user \
-    aosp_selene-userdebug \
-    aosp_selene-eng
+    conquer_selene-user \
+    conquer_selene-userdebug \
+    conquer_selene-eng
