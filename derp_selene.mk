@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/conquer/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -43,7 +43,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := selene
-PRODUCT_NAME := conquer_selene
+PRODUCT_NAME := derp_selene
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := xiaomi
 
