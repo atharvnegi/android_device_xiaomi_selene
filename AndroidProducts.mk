@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/derp_selene.mk
+   $(LOCAL_DIR)/spark_selene.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_selene-user \
-    derp_selene-userdebug \
-    derp_selene-eng
+    spark_selene-user \
+    spark_selene-userdebug \
+    spark_selene-eng
