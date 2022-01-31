@@ -508,7 +508,3 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.0.vendor \
     android.hardware.usb@1.1 \
     android.hardware.usb@1.1.vendor
-    
-    # GCam
-    PRODUCT_PACKAGES += \
-    GCam
