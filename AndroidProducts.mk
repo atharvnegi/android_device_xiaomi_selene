@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/radiant_selene.mk
+   $(LOCAL_DIR)/streak_selene.mk
 
 COMMON_LUNCH_CHOICES := \
-    radiant_selene-user \
-    radiant_selene-userdebug \
-    radiant_selene-eng
+    streak_selene-user \
+    streak_selene-userdebug \
+    streak_selene-eng
