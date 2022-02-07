@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/streak_selene.mk
+   $(LOCAL_DIR)/xdroid_selene.mk
 
 COMMON_LUNCH_CHOICES := \
-    streak_selene-user \
-    streak_selene-userdebug \
-    streak_selene-eng
+    xdroid_selene-user \
+    xdroid_selene-userdebug \
+    xdroid_selene-eng
