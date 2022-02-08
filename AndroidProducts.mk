@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/xdroid_selene.mk
+   $(LOCAL_DIR)/aosp_selene.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_selene-user \
-    xdroid_selene-userdebug \
-    xdroid_selene-eng
+    aosp_selene-user \
+    aosp_selene-userdebug \
+    aosp_selene-eng
