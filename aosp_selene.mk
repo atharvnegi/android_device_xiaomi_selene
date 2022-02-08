@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/xdroid/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -43,7 +43,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := selene
-PRODUCT_NAME := xdroid_selene
+PRODUCT_NAME := aosp_selene
 PRODUCT_MODEL := Redmi 10 Prime
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := xiaomi
@@ -55,7 +55,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="raven-user 12 SQ1D.220105.00
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys"
-
-# xdroid 
-XDROID_BOOT_DARK := true
-XDROID_UI_BLUR := true
