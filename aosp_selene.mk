@@ -35,6 +35,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# RavenOS Official Stuff
+RAVEN_BUILD_TYPE := UNOFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 #
 # All components inherited here go to system_ext image
 #
